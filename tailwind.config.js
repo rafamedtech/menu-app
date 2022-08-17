@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        handlee: ["'Handlee'", 'cursive'],
+      },
       container: {
         center: true,
         screens: {

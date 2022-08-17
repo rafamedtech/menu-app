@@ -12,5 +12,6 @@ useHead({
     <AppHeader>
       <NuxtPage class="hero-pattern" />
     </AppHeader>
+    <ScrollToTop />
   </section>
 </template>

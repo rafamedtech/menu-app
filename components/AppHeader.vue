@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+const changeLanguage = () => {
+  console.log('changeLanguage');
+};
+</script>
 
 <template>
-  <section class="drawer h-full">
+  <section class="drawer relative h-full">
     <input id="my-drawer-3" type="checkbox" class="drawer-toggle max-h-0" />
     <div class="drawer-content flex flex-col">
       <!-- Navbar -->
@@ -28,7 +32,7 @@
         <nuxt-link to="/" class="text-2xl text-neutral-content"
           ><img class="h-24" src="@/assets/images/logo.png" alt="logo"
         /></nuxt-link>
-        <button class="btn btn-accent h-fit flex-col px-2 text-base-100">
+        <button @click="changeLanguage" class="btn btn-accent h-fit flex-col px-2 text-base-100">
           <i class="fa-solid fa-language text-lg"></i>
           <span class="text-xs">EN </span>
         </button>
