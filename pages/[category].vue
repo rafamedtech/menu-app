@@ -26,7 +26,9 @@ definePageMeta({
       <button class="absolute my-auto ml-5 text-primary" @click="$router.back()">
         <i class="fa-solid fa-arrow-left-long text-3xl"></i>
       </button>
-      <h1 class="mx-auto px-2 text-center font-handlee text-4xl lg:px-32">{{ categoryTitle }}</h1>
+      <h1 class="mx-auto px-2 text-center font-handlee text-4xl text-accent lg:px-32">
+        {{ categoryTitle }}
+      </h1>
     </section>
 
     <section class="my-4">
