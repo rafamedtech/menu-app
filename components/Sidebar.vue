@@ -1,7 +1,7 @@
 <template>
   <div class="drawer-side">
     <label for="my-drawer-3" class="drawer-overlay"></label>
-    <ul class="menu w-80 overflow-y-auto bg-base-100 p-4">
+    <ul class="menu z-50 w-80 overflow-y-auto bg-base-100 p-4">
       <!-- Sidebar content here -->
       <li><img src="@/assets/images/logo.png" alt="logo" /></li>
       <li>
