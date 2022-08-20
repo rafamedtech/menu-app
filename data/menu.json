@@ -1,6 +1,6 @@
 [
   {
-    "category": "Desayunos",
+    "category": "desayunos",
     "cover": "https://images.unsplash.com/photo-1538220856186-0be0e085984d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=463&q=80",
     "sections": [
       {
@@ -11,37 +11,37 @@
           {
             "itemTitle": "Jugo Naranja",
             "itemDescription": "",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Jugo Verde",
             "itemDescription": "",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Jugo Naranja/Betabel",
             "itemDescription": "",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Smoothie Frutos Rojos",
             "itemDescription": "",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Ensalada de Frutas",
             "itemDescription": "",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Bowl de Avena",
             "itemDescription": "",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Pancakes de Avena",
             "itemDescription": "",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           }
         ]
       },
@@ -53,27 +53,27 @@
           {
             "itemTitle": "Huevos revueltos",
             "itemDescription": "Con jamon, tocino o chorizo",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Huevos ahogados",
             "itemDescription": "Con aguacate, frijoles del chef y queso panela",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Huevos rancheros",
             "itemDescription": "Sobre tortilla frita, salsa ranchera y frijoles del chef",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Huevos con machaca",
             "itemDescription": "Con frijoles del chef, papas de la casa y quesadilla de harina",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Huevos vegetarianos",
             "itemDescription": "Huevos revueltos con espinacas, cebolla y morron",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           }
         ]
       },
@@ -85,22 +85,22 @@
           {
             "itemTitle": "Vegetariano",
             "itemDescription": "Relleno de espinacas, champinones, cebolla y morron",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Mar y tierra",
             "itemDescription": "Relleno de arrachera y camaron, banado en salsa de la casa",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "El chilaquil",
             "itemDescription": "Rellenos de chilaquiles de mole poblano",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "La chicharronera",
             "itemDescription": "Relleno de chicharron prensado en salsa roja",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           }
         ]
       },
@@ -112,27 +112,27 @@
           {
             "itemTitle": "Arrachera Brunette",
             "itemDescription": "230gr de arrachera, 2 huevos, papas de la casa y chilaquiles",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "El del ingeniero",
             "itemDescription": "Carne asada, 2 huevos, chilaquiles, frijol, guacamole, queso panela asado y quesadilla",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Enchilado",
             "itemDescription": "2 huevos sobre enchiladas de mole, frijol y papas de la casa",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Don Luis",
             "itemDescription": "2 huevos, tocino, jamon, papa rayada, y 1 pancake",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           },
           {
             "itemTitle": "Tamalera",
             "itemDescription": "2 tamalitos de elote banados en rajas con crema y 2 huevos",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           }
         ]
       },
@@ -157,7 +157,7 @@
             "itemPrice": "$145.00 <br /> Con huevo - $165.00"
           },
           {
-            "itemTitle": "",
+            "itemTitle": "a",
             "itemDescription": "*Acompanados de frijoles del chef",
             "itemPrice": ""
           }
@@ -197,9 +197,8 @@
       }
     ]
   },
-
   {
-    "category": "Comida",
+    "category": "comida",
     "cover": "https://images.pexels.com/photos/541216/pexels-photo-541216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "sections": [
       {
@@ -425,7 +424,7 @@
     ]
   },
   {
-    "category": "Postres",
+    "category": "postres",
     "cover": "https://images.pexels.com/photos/3992131/pexels-photo-3992131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "sections": [
       {
@@ -446,19 +445,19 @@
           {
             "itemTitle": "Crepa Brunette",
             "itemDescription": "Rellena de crema de limon y fresas con polvo de galletas",
-            "itemPrice": "$155.00 "
+            "itemPrice": "$155.00"
           },
           {
             "itemTitle": "Helado del dia",
             "itemDescription": "",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$65.00"
           }
         ]
       }
     ]
   },
   {
-    "category": "Bebidas",
+    "category": "bebidas",
     "cover": "https://images.pexels.com/photos/3323682/pexels-photo-3323682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "sections": [
       {
@@ -610,7 +609,7 @@
     ]
   },
   {
-    "category": "Licor",
+    "category": "licor",
     "cover": "https://images.pexels.com/photos/2995333/pexels-photo-2995333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "sections": [
       {
@@ -917,7 +916,7 @@
   },
 
   {
-    "category": "Mixologia",
+    "category": "mixologia",
     "cover": "https://images.pexels.com/photos/10823435/pexels-photo-10823435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "sections": [
       {
@@ -975,92 +974,92 @@
           {
             "itemTitle": "Long island",
             "itemDescription": "",
-            "itemPrice": "$95.00 "
+            "itemPrice": "$95.00"
           },
           {
             "itemTitle": "Carajillo",
             "itemDescription": "",
-            "itemPrice": "$130.00 "
+            "itemPrice": "$130.00"
           },
           {
             "itemTitle": "Mojito",
             "itemDescription": "",
-            "itemPrice": "$130.00 "
+            "itemPrice": "$130.00"
           },
           {
             "itemTitle": "Mimosas",
             "itemDescription": "",
-            "itemPrice": "$110.00 "
+            "itemPrice": "$110.00"
           },
           {
             "itemTitle": "Cuba",
             "itemDescription": "",
-            "itemPrice": "$90.00 "
+            "itemPrice": "$90.00"
           },
           {
             "itemTitle": "Martini",
             "itemDescription": "",
-            "itemPrice": "$90.00 "
+            "itemPrice": "$90.00"
           },
           {
             "itemTitle": "Margarita",
             "itemDescription": "",
-            "itemPrice": "$90.00 "
+            "itemPrice": "$90.00"
           },
           {
             "itemTitle": "Paloma",
             "itemDescription": "",
-            "itemPrice": "$85.00 "
+            "itemPrice": "$85.00"
           },
           {
             "itemTitle": "Pina colada",
             "itemDescription": "",
-            "itemPrice": "$95.00 "
+            "itemPrice": "$95.00"
           },
           {
             "itemTitle": "Vaso michelado",
             "itemDescription": "",
-            "itemPrice": "$30.00 "
+            "itemPrice": "$30.00"
           },
           {
             "itemTitle": "Vaso cubano",
             "itemDescription": "",
-            "itemPrice": "$30.00 "
+            "itemPrice": "$30.00"
           },
           {
             "itemTitle": "Vaso chabela",
             "itemDescription": "",
-            "itemPrice": "$30.00 "
+            "itemPrice": "$30.00"
           },
           {
             "itemTitle": "Clamato sin alcohol",
             "itemDescription": "",
-            "itemPrice": "$60.00 "
+            "itemPrice": "$60.00"
           },
           {
             "itemTitle": "Topo Chico hard seltzer",
             "itemDescription": "",
-            "itemPrice": "$55.00 "
+            "itemPrice": "$55.00"
           },
           {
             "itemTitle": "Jagermeister",
             "itemDescription": "",
-            "itemPrice": "$90.00 "
+            "itemPrice": "$90.00"
           },
           {
             "itemTitle": "Baileys irish cream",
             "itemDescription": "",
-            "itemPrice": "$85.00 "
+            "itemPrice": "$85.00"
           },
           {
             "itemTitle": "Kahlúa",
             "itemDescription": "",
-            "itemPrice": "$85.00 "
+            "itemPrice": "$85.00"
           },
           {
             "itemTitle": "Frangelico",
             "itemDescription": "",
-            "itemPrice": "$95.00 "
+            "itemPrice": "$95.00"
           }
         ]
       }

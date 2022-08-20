@@ -29,20 +29,22 @@
           ><img class="h-24" src="@/assets/images/logo.png" alt="logo"
         /></nuxt-link>
 
-        <!-- Language switch -->
-        <button @click="$emit('language')" class="btn btn-accent h-fit flex-col px-2 text-base-100">
-          <i class="fa-solid fa-language text-lg"></i>
-          <span class="text-xs">EN </span>
-        </button>
+        <section>
+          <!-- Language switch -->
+          <button class="btn btn-accent h-fit flex-col px-2 text-base-100 lg:flex-row lg:gap-2">
+            <i class="fa-solid fa-language text-lg"></i>
+            <span class="text-xs">EN </span>
+          </button>
 
-        <!-- Desktop navbar -->
-        <div class="hidden flex-none lg:block">
-          <ul class="menu menu-horizontal">
-            <!-- Navbar menu for desktop -->
-            <li><a>Navbar Item 1</a></li>
-            <li><a>Navbar Item 2</a></li>
-          </ul>
-        </div>
+          <!-- Desktop navbar -->
+          <div class="hidden flex-none lg:block">
+            <ul class="menu menu-horizontal">
+              <!-- Navbar menu for desktop -->
+              <li><a>Menu</a></li>
+              <li><a>Promotions</a></li>
+            </ul>
+          </div>
+        </section>
       </nav>
 
       <!-- Page content  -->

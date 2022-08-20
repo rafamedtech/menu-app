@@ -5,15 +5,19 @@
       <!-- Sidebar content here -->
       <li><img src="@/assets/images/logo.png" alt="logo" /></li>
       <li>
-        <div class="flex w-full justify-center gap-4 text-5xl">
-          <nuxt-link><i class="fa-brands fa-facebook"></i></nuxt-link>
-          <nuxt-link><i class="fa-brands fa-instagram"></i></nuxt-link>
+        <div class="flex w-full justify-center gap-4 text-5xl active:bg-transparent">
+          <nuxt-link to="https://www.facebook.com/brunette.realdelmar"
+            ><i class="fa-brands fa-facebook"></i
+          ></nuxt-link>
+          <nuxt-link to="https://www.instagram.com/brunette.realdelmar/"
+            ><i class="fa-brands fa-instagram"></i
+          ></nuxt-link>
         </div>
       </li>
       <li><p class="mx-auto text-center font-bold text-accent">(664) 974 6842</p></li>
       <li>
         <div class="flex flex-col text-center">
-          <h4 class="text-2xl">Horario</h4>
+          <h4 class="font-handlee text-2xl">Horario</h4>
           <article>
             <p class="text-lg font-bold text-accent">Martes - Jueves</p>
             <span>9:00 AM - 10:00 PM</span>
@@ -28,6 +32,7 @@
           </article>
         </div>
       </li>
+      <span class="mt-20 text-center">Created by Rafamed</span>
     </ul>
   </div>
 </template>

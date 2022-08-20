@@ -17,6 +17,14 @@
   html {
     scroll-behavior: smooth; /* set scroll-behaviour to smooth here */
   }
+
+  main {
+    @apply mb-20;
+  }
+
+  .custom-banner {
+    filter: sepia(0.6);
+  }
 }
 
 @layer utilities {
@@ -31,26 +39,32 @@
 
 .fade-enter-from {
   opacity: 0;
-  transform: translateX(15px);
+
+  /* transform: translateX(15px); */
 }
 
 .fade-enter-to {
   opacity: 1;
-  transform: translateX(0);
+
+  /* transform: translateX(0); */
 }
 
-.fade-enter-active,
+.fade-enter-active {
+  transition: all 0.2s ease-in-out;
+}
 .fade-leave-active {
-  transition: all 0.3s ease-out;
+  /* position: absolute; */
+  transition: all 0.2s ease-in-out;
 }
 
 .fade-leave-from {
   opacity: 1;
-  transform: translateX(0);
+  /* transform: translateX(0); */
 }
 .fade-leave-to {
   opacity: 0;
-  transform: translateX(-15px);
+
+  /* transform: translateX(-15px); */
 }
 
 /* up transition */

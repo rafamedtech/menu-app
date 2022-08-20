@@ -10,7 +10,7 @@ const categoryTitle = computed(() => {
 });
 
 // Current category
-const category = menu.find(({ category }) => category === categoryTitle.value);
+const category = ref(menu.find(({ category }) => category === title.value));
 
 definePageMeta({
   pageTransition: {
@@ -21,7 +21,7 @@ definePageMeta({
 </script>
 
 <template>
-  <main>
+  <main class="container">
     <section class="flex items-center">
       <button class="absolute my-auto ml-5 text-primary" @click="$router.back()">
         <i class="fa-solid fa-arrow-left-long text-3xl"></i>
@@ -31,10 +31,13 @@ definePageMeta({
       </h1>
     </section>
 
-    <section class="my-4">
-      <div v-for="{ sectionTitle, sectionDescription, sectionItems, cover } in category.sections">
+    <section class="my-4 lg:grid lg:grid-cols-2 lg:gap-8">
+      <div
+        v-for="{ sectionTitle, sectionDescription, sectionItems, cover } in category.sections"
+        :key="sectionTitle"
+      >
         <!-- Section banner -->
-        <div class="relative flex h-28 w-full flex-col justify-center py-2">
+        <div class="custom-banner relative flex h-32 w-full flex-col justify-center py-2 lg:h-40">
           <img
             class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50"
             :src="cover"
@@ -50,7 +53,7 @@ definePageMeta({
 
         <!-- Section Items -->
         <ul class="grid grid-cols-2 gap-4 p-4">
-          <li v-for="{ itemTitle, itemDescription, itemPrice } in sectionItems">
+          <li v-for="{ itemTitle, itemDescription, itemPrice } in sectionItems" :key="itemTitle">
             <div>
               <h4 class="text-xl font-bold text-accent">{{ itemTitle }}</h4>
               <p class="text-primary" v-html="itemPrice"></p>

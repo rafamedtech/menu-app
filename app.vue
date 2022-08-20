@@ -8,11 +8,11 @@ useHead({
 </script>
 
 <template>
-  <section class="relative">
+  <section class="relative mb-20">
     <AppHeader>
-      <NuxtPage class="hero-pattern" />
+      <NuxtPage />
     </AppHeader>
-    <ScrollToTop />
+    <!-- <ScrollToTop /> -->
     <BottomNav />
   </section>
 </template>
