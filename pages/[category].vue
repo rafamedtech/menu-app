@@ -1,16 +1,27 @@
 <script setup>
-import menu from '@/data/menu.json';
+import { useMainStore } from '@/stores/main';
 
-const route = useRoute();
+const store = useMainStore();
+const { params } = useRoute();
 
 // Get category title
-const title = ref(route.params.category);
+const title = ref(params.category);
 const categoryTitle = computed(() => {
   return title.value.charAt(0).toUpperCase() + title.value.slice(1);
 });
 
 // Current category
-const category = ref(menu.find(({ category }) => category === title.value));
+const category = store.getByCategory(params.category);
+
+useHead({
+  title: categoryTitle,
+  meta: [
+    {
+      name: 'description',
+      content: `Nuestro menu de ${categoryTitle}`,
+    },
+  ],
+});
 
 definePageMeta({
   pageTransition: {

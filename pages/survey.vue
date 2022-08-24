@@ -1,4 +1,25 @@
 <script setup>
+import { useMainStore } from '@/stores/main';
+import { storeToRefs } from 'pinia';
+
+const store = useMainStore();
+
+const { modal } = storeToRefs(store);
+
+const openModal = () => {
+  modal.value = true;
+};
+
+useHead({
+  title: 'Encuesta',
+  meta: [
+    {
+      name: 'description',
+      content: 'Tu opinion es muy importante para nosotros',
+    },
+  ],
+});
+
 definePageMeta({
   pageTransition: {
     name: 'up',
@@ -22,7 +43,7 @@ definePageMeta({
         <div class="hero-content flex-col lg:flex-row-reverse">
           <div class="text-center lg:text-left">
             <h1 class="text-2xl text-primary">Por favor, ayudanos con tu opinion.</h1>
-            <p class="py-6">Con tu opinion, podemos mejorar nuestros productos y servicios.</p>
+            <p class="py-6">Con tus comentarios, podemos mejorar nuestros productos y servicios.</p>
           </div>
           <div class="card w-full max-w-sm flex-shrink-0 bg-base-100 shadow-2xl">
             <div class="card-body">
@@ -60,12 +81,16 @@ definePageMeta({
                 </label>
               </div>
               <div class="form-control mt-6">
-                <button class="btn btn-primary text-base-100">Submit</button>
+                <!-- <button class="btn btn-primary text-base-100">Submit</button> -->
+                <label @click="openModal" for="my-modal-6" class="btn btn-primary text-base-100"
+                  >Submit</label
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- <Modal class="z-50" /> -->
   </main>
 </template>

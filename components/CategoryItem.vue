@@ -5,6 +5,10 @@ const props = defineProps({
     default: () => ({}),
   },
 });
+
+const categoryTitle = computed(() => {
+  return props.category.category.charAt(0).toUpperCase() + props.category.category.slice(1);
+});
 </script>
 
 <template>
@@ -20,6 +24,6 @@ const props = defineProps({
         alt="item picture"
       />
     </figure>
-    <span class="text-lg text-accent">{{ category.category }}</span>
+    <span class="text-lg text-accent">{{ categoryTitle }}</span>
   </nuxt-link>
 </template>

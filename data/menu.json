@@ -1,7 +1,7 @@
 [
   {
     "category": "desayunos",
-    "cover": "https://images.unsplash.com/photo-1538220856186-0be0e085984d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=463&q=80",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/desayunos.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvZGVzYXl1bm9zLnBuZyIsImlhdCI6MTY2MTE5MTI5NCwiZXhwIjoxOTc2NTUxMjk0fQ.U8mC8Hx6PnSrNXh8TBSwXa_cxWtGE4k6rstMNsN-t78&t=2022-08-22T18%3A01%3A34.285Z",
     "sections": [
       {
         "sectionTitle": "Detox",
@@ -26,22 +26,22 @@
           {
             "itemTitle": "Smoothie Frutos Rojos",
             "itemDescription": "",
-            "itemPrice": "$65.00"
+            "itemPrice": "$85.00"
           },
           {
             "itemTitle": "Ensalada de Frutas",
-            "itemDescription": "",
-            "itemPrice": "$65.00"
+            "itemDescription": "Frutas de temporada y queso cottage",
+            "itemPrice": "$165.00"
           },
           {
             "itemTitle": "Bowl de Avena",
-            "itemDescription": "",
-            "itemPrice": "$65.00"
+            "itemDescription": "Con chia y fresas",
+            "itemPrice": "$120.00"
           },
           {
             "itemTitle": "Pancakes de Avena",
-            "itemDescription": "",
-            "itemPrice": "$65.00"
+            "itemDescription": "Acompañado de fruta de temporada",
+            "itemPrice": "$140.00"
           }
         ]
       },
@@ -53,27 +53,27 @@
           {
             "itemTitle": "Huevos revueltos",
             "itemDescription": "Con jamon, tocino o chorizo",
-            "itemPrice": "$65.00"
+            "itemPrice": "$155.00"
           },
           {
             "itemTitle": "Huevos ahogados",
             "itemDescription": "Con aguacate, frijoles del chef y queso panela",
-            "itemPrice": "$65.00"
+            "itemPrice": "$165.00"
           },
           {
             "itemTitle": "Huevos rancheros",
             "itemDescription": "Sobre tortilla frita, salsa ranchera y frijoles del chef",
-            "itemPrice": "$65.00"
+            "itemPrice": "$155.00"
           },
           {
             "itemTitle": "Huevos con machaca",
             "itemDescription": "Con frijoles del chef, papas de la casa y quesadilla de harina",
-            "itemPrice": "$65.00"
+            "itemPrice": "$235.00"
           },
           {
             "itemTitle": "Huevos vegetarianos",
             "itemDescription": "Huevos revueltos con espinacas, cebolla y morron",
-            "itemPrice": "$65.00"
+            "itemPrice": "$140.00"
           }
         ]
       },
@@ -85,22 +85,27 @@
           {
             "itemTitle": "Vegetariano",
             "itemDescription": "Relleno de espinacas, champinones, cebolla y morron",
-            "itemPrice": "$65.00"
+            "itemPrice": "$165.00"
           },
           {
             "itemTitle": "Mar y tierra",
             "itemDescription": "Relleno de arrachera y camaron, banado en salsa de la casa",
-            "itemPrice": "$65.00"
+            "itemPrice": "$195.00"
           },
           {
             "itemTitle": "El chilaquil",
             "itemDescription": "Rellenos de chilaquiles de mole poblano",
-            "itemPrice": "$65.00"
+            "itemPrice": "$175.00"
           },
           {
             "itemTitle": "La chicharronera",
             "itemDescription": "Relleno de chicharron prensado en salsa roja",
-            "itemPrice": "$65.00"
+            "itemPrice": "$185.00"
+          },
+          {
+            "itemTitle": "",
+            "itemDescription": "* Todos acompañados de frijol del chef y papas de la casa",
+            "itemPrice": ""
           }
         ]
       },
@@ -112,27 +117,27 @@
           {
             "itemTitle": "Arrachera Brunette",
             "itemDescription": "230gr de arrachera, 2 huevos, papas de la casa y chilaquiles",
-            "itemPrice": "$65.00"
+            "itemPrice": "$275.00"
           },
           {
             "itemTitle": "El del ingeniero",
             "itemDescription": "Carne asada, 2 huevos, chilaquiles, frijol, guacamole, queso panela asado y quesadilla",
-            "itemPrice": "$65.00"
+            "itemPrice": "$245.00"
           },
           {
             "itemTitle": "Enchilado",
             "itemDescription": "2 huevos sobre enchiladas de mole, frijol y papas de la casa",
-            "itemPrice": "$65.00"
+            "itemPrice": "$230.00"
           },
           {
             "itemTitle": "Don Luis",
             "itemDescription": "2 huevos, tocino, jamon, papa rayada, y 1 pancake",
-            "itemPrice": "$65.00"
+            "itemPrice": "$210.00"
           },
           {
             "itemTitle": "Tamalera",
             "itemDescription": "2 tamalitos de elote banados en rajas con crema y 2 huevos",
-            "itemPrice": "$65.00"
+            "itemPrice": "$225.00"
           }
         ]
       },
@@ -149,15 +154,15 @@
           {
             "itemTitle": "De mole",
             "itemDescription": "",
-            "itemPrice": "Con huevo - $145.00 <br /> Con pollo - $165.00"
+            "itemPrice": "Con huevo - $165.00 <br /> Con pollo - $175.00"
           },
           {
             "itemTitle": "De birria",
             "itemDescription": "",
-            "itemPrice": "$145.00 <br /> Con huevo - $165.00"
+            "itemPrice": "$185.00 <br /> Con huevo - $195.00"
           },
           {
-            "itemTitle": "a",
+            "itemTitle": "",
             "itemDescription": "*Acompanados de frijoles del chef",
             "itemPrice": ""
           }
@@ -175,13 +180,13 @@
           },
           {
             "itemTitle": "Pancakes zanahoria (3)",
-            "itemDescription": "Con zanahoria rayada, nuez, pina y canelita",
-            "itemPrice": "$165.00"
+            "itemDescription": "Con zanahoria rayada, nuez, piña y canelita",
+            "itemPrice": "$175.00"
           },
           {
             "itemTitle": "Pan frances",
             "itemDescription": "Con fruta de temporada",
-            "itemPrice": "$165.00"
+            "itemPrice": "$155.00"
           },
           {
             "itemTitle": "Pan frances Brunette",
@@ -199,7 +204,7 @@
   },
   {
     "category": "comida",
-    "cover": "https://images.pexels.com/photos/541216/pexels-photo-541216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/comida.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvY29taWRhLnBuZyIsImlhdCI6MTY2MTE5MTMwNiwiZXhwIjoxOTc2NTUxMzA2fQ.OS9rB3fb6Hj2258ACCK8K5Sc21DLgNfL3-1ylZFgHgY&t=2022-08-22T18%3A01%3A47.085Z",
     "sections": [
       {
         "sectionTitle": "Entradas",
@@ -208,7 +213,7 @@
         "sectionItems": [
           {
             "itemTitle": "Queso fundido Brunette",
-            "itemDescription": "Plato de queso fundido con una deliciosa porcion de chicharron",
+            "itemDescription": "Plato de queso fundido, horneado lentamente con una deliciosa porcion de chicharron",
             "itemPrice": "$170.00"
           },
           {
@@ -233,7 +238,7 @@
           },
           {
             "itemTitle": "Nachos real",
-            "itemDescription": "Totopo banado en salsa de queso, aguacate y coronado con camarones salteados",
+            "itemDescription": "Totopo bañado en salsa de queso, aguacate y coronado con camarones salteados",
             "itemPrice": "$160.00"
           },
           {
@@ -246,7 +251,6 @@
             "itemDescription": "Granos de elote con mantequilla, queso y aderezo bonita",
             "itemPrice": "$65.00"
           },
-
           {
             "itemTitle": "Tabla Brunette",
             "itemDescription": "3 mini hamburguesas, 5 boneless, nachos con queso, 4 quesadillas, 5 alitas, papas en gajo, guacamole y dedos de queso",
@@ -266,7 +270,7 @@
           },
           {
             "itemTitle": "Crema de coliflor ahumada",
-            "itemDescription": "Crema de coliflor ahumada acompanada de pan a las hierbas",
+            "itemDescription": "Crema de coliflor ahumada acompañada de pan a las hierbas",
             "itemPrice": "$130.00"
           },
           {
@@ -282,7 +286,7 @@
           {
             "itemTitle": "Ensalade del bosque",
             "itemDescription": "Lechugas mixtas, fresas, nuez garapiñadas, queso feta y aderezo brunette",
-            "itemPrice": "$65.00 "
+            "itemPrice": "$165.00 "
           }
         ]
       },
@@ -345,8 +349,8 @@
           },
           {
             "itemTitle": "Brunette",
-            "itemDescription": "8 rebenadas distintas, carne asada, adobada, peperoni, queso, margarita, vegetariana, pollo chipotle y mar y tierra",
-            "itemPrice": "$220.00"
+            "itemDescription": "De chile relleno de surimi",
+            "itemPrice": "$195.00"
           }
         ]
       },
@@ -362,7 +366,7 @@
           },
           {
             "itemTitle": "Atun Brunette",
-            "itemDescription": "Lajas de atun en salsas negras",
+            "itemDescription": "Fresco atun marinado en salsas negras",
             "itemPrice": "$250.00"
           },
           {
@@ -389,7 +393,7 @@
         "sectionItems": [
           {
             "itemTitle": "Ribeye (400gr)",
-            "itemDescription": "Acompanado de pure de papa y vegetales",
+            "itemDescription": "Acompañado de pure de papa y vegetales",
             "itemPrice": "$540.00"
           },
           {
@@ -425,21 +429,21 @@
   },
   {
     "category": "postres",
-    "cover": "https://images.pexels.com/photos/3992131/pexels-photo-3992131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/postre.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvcG9zdHJlLmpwZyIsImlhdCI6MTY2MTE5MTMxOSwiZXhwIjoxOTc2NTUxMzE5fQ.77Uzo3QW7BCSl1WINvEMzz_178UG6BhvtBT6p9SwNfI&t=2022-08-22T18%3A01%3A59.923Z",
     "sections": [
       {
-        "sectionTitle": "Menu Brunette",
+        "sectionTitle": "Final feliz",
         "sectionDescription": "",
         "cover": "https://images.pexels.com/photos/3992131/pexels-photo-3992131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "sectionItems": [
           {
             "itemTitle": "Pie de manzana",
-            "itemDescription": "Servido caliente acompanado de helado de vainilla",
+            "itemDescription": "Servido caliente acompañado de helado de vainilla",
             "itemPrice": "$140.00"
           },
           {
             "itemTitle": "Flan de guayaba",
-            "itemDescription": "Con compota de guayaba y chile morita",
+            "itemDescription": "Con jarabe de piloncillo",
             "itemPrice": "$115.00"
           },
           {
@@ -458,7 +462,7 @@
   },
   {
     "category": "bebidas",
-    "cover": "https://images.pexels.com/photos/3323682/pexels-photo-3323682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/bebidas.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvYmViaWRhcy5qcGciLCJpYXQiOjE2NjExOTEzMzEsImV4cCI6MTk3NjU1MTMzMX0.CyOPc1F-kJYI8Yl0MDfV6D5YYDxsejDO2NhCyfWVRgY&t=2022-08-22T18%3A02%3A11.649Z",
     "sections": [
       {
         "sectionTitle": "No alcohol",
@@ -467,7 +471,7 @@
         "sectionItems": [
           {
             "itemTitle": "Sodas",
-            "itemDescription": "Servido caliente acompanado de helado de vainilla",
+            "itemDescription": "",
             "itemPrice": "$35.00"
           },
           {
@@ -560,7 +564,7 @@
           {
             "itemTitle": "XX Ambar",
             "itemDescription": "",
-            "itemPrice": "$30.00"
+            "itemPrice": "$50.00"
           },
           {
             "itemTitle": "Amstel Ultra",
@@ -575,12 +579,7 @@
         "cover": "https://images.pexels.com/photos/1796698/pexels-photo-1796698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "sectionItems": [
           {
-            "itemTitle": "Peanut butter milk stout belching beaver",
-            "itemDescription": "",
-            "itemPrice": "$95.00"
-          },
-          {
-            "itemTitle": "Nitro peanut butter",
+            "itemTitle": "Peanut butter",
             "itemDescription": "",
             "itemPrice": "$95.00"
           },
@@ -590,9 +589,9 @@
             "itemPrice": "$95.00"
           },
           {
-            "itemTitle": ".394 Hazy",
+            "itemTitle": "Alesmith sublime",
             "itemDescription": "",
-            "itemPrice": "$115.00"
+            "itemPrice": "$95.00"
           },
           {
             "itemTitle": "Darkenstein IPA",
@@ -609,7 +608,7 @@
     ]
   },
   {
-    "category": "licor",
+    "category": "botellas",
     "cover": "https://images.pexels.com/photos/2995333/pexels-photo-2995333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "sections": [
       {
@@ -917,7 +916,7 @@
 
   {
     "category": "mixologia",
-    "cover": "https://images.pexels.com/photos/10823435/pexels-photo-10823435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/mixologia.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvbWl4b2xvZ2lhLmpwZyIsImlhdCI6MTY2MTE5MTM0MSwiZXhwIjoxOTc2NTUxMzQxfQ.UCxNkk5uXTOsGyQHvGsxByuhXd8_md6gZguvSjkePjo&t=2022-08-22T18%3A02%3A21.729Z",
     "sections": [
       {
         "sectionTitle": "Menu Brunette",
@@ -930,8 +929,8 @@
             "itemPrice": "$160.00"
           },
           {
-            "itemTitle": "De pina pa'la nina",
-            "itemDescription": "Vodka + Horchata de pina + bitters + coco tostado",
+            "itemTitle": "De piña pa'la niña",
+            "itemDescription": "Vodka + Horchata de piña + bitters + coco tostado",
             "itemPrice": "$160.00"
           },
           {

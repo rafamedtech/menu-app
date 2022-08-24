@@ -53,8 +53,8 @@
   transition: all 0.2s ease-in-out;
 }
 .fade-leave-active {
-  /* position: absolute; */
-  transition: all 0.2s ease-in-out;
+  position: absolute;
+  transition: all 0s ease-in-out;
 }
 
 .fade-leave-from {

@@ -1,4 +1,12 @@
 <script setup>
+import { useMainStore } from '@/stores/main';
+import { storeToRefs } from 'pinia';
+
+const store = useMainStore();
+await store.fetch();
+
+const { modal } = storeToRefs(store);
+
 useHead({
   link: {
     rel: 'stylesheet',
@@ -12,7 +20,7 @@ useHead({
     <AppHeader>
       <NuxtPage />
     </AppHeader>
-    <!-- <ScrollToTop /> -->
     <BottomNav />
+    <Modal v-if="modal" />
   </section>
 </template>

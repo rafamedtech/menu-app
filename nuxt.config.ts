@@ -4,6 +4,10 @@ import { defineNuxtConfig } from 'nuxt';
 export default defineNuxtConfig({
   css: ['@/assets/css/main.css'],
 
+  // plugins: ['~/plugins/pinia-persist.js'],
+
+  buildModules: ['@pinia/nuxt'],
+
   build: {
     postcss: {
       postcssOptions: {

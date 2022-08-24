@@ -1,4 +1,16 @@
-<script setup></script>
+<script setup>
+import { useMainStore } from '@/stores/main';
+import { storeToRefs } from 'pinia';
+
+const store = useMainStore();
+const { language } = storeToRefs(store);
+
+const changeLanguage = () => {
+  store.$patch({
+    language: language.value === 'es' ? 'en' : 'es',
+  });
+};
+</script>
 
 <template>
   <section class="drawer relative h-full">
@@ -26,22 +38,26 @@
 
         <!-- Logo -->
         <nuxt-link to="/" class="text-2xl text-neutral-content"
-          ><img class="h-24" src="@/assets/images/logo.png" alt="logo"
+          ><img class="h-14" src="@/assets/images/logo1.png" alt="logo"
         /></nuxt-link>
 
         <section>
           <!-- Language switch -->
-          <button class="btn btn-accent h-fit flex-col px-2 text-base-100 lg:flex-row lg:gap-2">
+          <button
+            @click="changeLanguage"
+            class="btn btn-accent h-fit flex-col px-2 text-base-100 lg:flex-row lg:gap-2"
+          >
             <i class="fa-solid fa-language text-lg"></i>
-            <span class="text-xs">EN </span>
+            <span class="text-xs">{{ language }}</span>
           </button>
 
           <!-- Desktop navbar -->
           <div class="hidden flex-none lg:block">
             <ul class="menu menu-horizontal">
               <!-- Navbar menu for desktop -->
-              <li><a>Menu</a></li>
-              <li><a>Promotions</a></li>
+              <li><nuxt-link to="/">Menu</nuxt-link></li>
+              <li><nuxt-link :to="{ name: 'events' }">Eventos</nuxt-link></li>
+              <li><nuxt-link :to="{ name: 'survey' }">Encuesta</nuxt-link></li>
             </ul>
           </div>
         </section>
