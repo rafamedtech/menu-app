@@ -1,4 +1,10 @@
 <script setup>
+import { useMainStore } from '@/stores/main';
+import { storeToRefs } from 'pinia';
+
+const store = useMainStore();
+const { events } = storeToRefs(store);
+
 definePageMeta({
   pageTransition: {
     name: 'up',
@@ -18,8 +24,8 @@ definePageMeta({
     </section>
 
     <section>
-      <div v-for="promo in 4" class="card p-4">
-        <img class="rounded-2xl" src="@/assets/images/boleros.png" alt="" />
+      <div v-for="{ id, cover } in events" :key="id" class="card p-4">
+        <img class="rounded-2xl" :src="cover" alt="" />
       </div>
     </section>
   </main>

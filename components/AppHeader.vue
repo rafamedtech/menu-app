@@ -1,4 +1,5 @@
 <script setup>
+import { useHydration } from '#app';
 import { useMainStore } from '@/stores/main';
 import { storeToRefs } from 'pinia';
 
@@ -7,8 +8,16 @@ const { language } = storeToRefs(store);
 
 const changeLanguage = () => {
   store.$patch({
+    isLoading: true,
     language: language.value === 'es' ? 'en' : 'es',
   });
+  store.changeLanguage(language.value);
+  console.log(store.menu.value);
+  setTimeout(() => {
+    store.$patch({
+      isLoading: false,
+    });
+  }, 1500);
 };
 </script>
 
@@ -43,18 +52,19 @@ const changeLanguage = () => {
 
         <section>
           <!-- Language switch -->
-          <button
+          <label
+            for="my-modal"
             @click="changeLanguage"
             class="btn btn-accent h-fit flex-col px-2 text-base-100 lg:flex-row lg:gap-2"
           >
             <i class="fa-solid fa-language text-lg"></i>
             <span class="text-xs">{{ language }}</span>
-          </button>
+          </label>
+          <!-- <label for="my-modal" class="modal-button btn">open modal</label> -->
 
           <!-- Desktop navbar -->
           <div class="hidden flex-none lg:block">
             <ul class="menu menu-horizontal">
-              <!-- Navbar menu for desktop -->
               <li><nuxt-link to="/">Menu</nuxt-link></li>
               <li><nuxt-link :to="{ name: 'events' }">Eventos</nuxt-link></li>
               <li><nuxt-link :to="{ name: 'survey' }">Encuesta</nuxt-link></li>

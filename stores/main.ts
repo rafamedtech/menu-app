@@ -1,4 +1,6 @@
 import { defineStore } from 'pinia';
+import menu_es from '@/data/menu-es.json';
+import events from '@/data/events.json';
 
 export const useMainStore = defineStore('main', {
   state: () => ({
@@ -6,7 +8,9 @@ export const useMainStore = defineStore('main', {
     isLoading: false,
     language: 'es',
     menu: [],
+    menu_es: [],
     menu_en: [],
+    events: [],
   }),
 
   getters: {
@@ -18,13 +22,24 @@ export const useMainStore = defineStore('main', {
   actions: {
     async fetch() {
       try {
-        // const { data: menu } = await useFetch(() => '/api/menu', { params: { language: 'es' } });
-        const { es, en } = await $fetch('/api/menu');
-        this.menu = es;
-        this.menu_en = en;
+        // Fetching menu and save it in state
+        // const { es, en } = await $fetch('/api/menu');
+        // const menuEs = JSON.parse(menu_es);
+        this.menu = menu_es;
+        // this.menu = menuEs;
+        // this.menu_es = es;
+        // this.menu_en = en;
+
+        // Fetching events and save them in state
+        // const { events } = await $fetch('/api/events');
+        this.events = events;
       } catch (error) {
         console.error(error);
       }
+    },
+
+    changeLanguage(language) {
+      this.menu = `${this.menu}-${language}`;
     },
   },
 });

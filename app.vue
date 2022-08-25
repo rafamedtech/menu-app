@@ -5,7 +5,7 @@ import { storeToRefs } from 'pinia';
 const store = useMainStore();
 await store.fetch();
 
-const { modal } = storeToRefs(store);
+const { modal, isLoading } = storeToRefs(store);
 
 useHead({
   link: {
@@ -22,5 +22,6 @@ useHead({
     </AppHeader>
     <BottomNav />
     <Modal v-if="modal" />
+    <Loader v-if="isLoading" />
   </section>
 </template>

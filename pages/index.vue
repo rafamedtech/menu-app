@@ -1,10 +1,25 @@
 <script setup>
-// import menu from '@/data/menu.json';
 import { useMainStore } from '@/stores/main';
 import { storeToRefs } from 'pinia';
 
 const store = useMainStore();
-const { menu } = storeToRefs(store);
+const { menu, menu_en, menu_es, language } = storeToRefs(store);
+
+// console.log(menu_en.value);
+
+// const menu = ref(menu_es);
+
+watchEffect(() => {
+  if (language.value === 'en') {
+    store.$patch({
+      menu: menu_en.value,
+    });
+  }
+
+  // if(store.language.value)
+});
+
+console.log();
 
 useHead({
   title: 'Brunette Menu',
