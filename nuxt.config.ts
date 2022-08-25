@@ -8,6 +8,12 @@ export default defineNuxtConfig({
 
   buildModules: ['@pinia/nuxt'],
 
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml'],
+    },
+  },
+
   build: {
     postcss: {
       postcssOptions: {
