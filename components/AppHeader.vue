@@ -1,5 +1,4 @@
 <script setup>
-import { useHydration } from '#app';
 import { useMainStore } from '@/stores/main';
 import { storeToRefs } from 'pinia';
 
