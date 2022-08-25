@@ -23,9 +23,9 @@ export const useMainStore = defineStore('main', {
     async fetch() {
       try {
         // Fetching menu and save it in state
-        const { es } = await $fetch('/api/menu');
+        // const { es } = await $fetch('/api/menu');
         // const menuEs = JSON.parse(menu_es);
-        this.menu = es;
+        this.menu = menu_es;
         // this.menu = menuEs;
         // this.menu_es = es;
         // this.menu_en = en;
